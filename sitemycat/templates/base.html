@@ -1,0 +1,39 @@
+{% load static%}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>{% block title %}Мой сайт{% endblock %}</title>
+    <link type="text/css" href="{% static 'mycat/css/main.css' %}" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap" rel="stylesheet">
+</head>
+<body>
+   {% block header %}
+     <div class="header">
+        <div class="container">
+            <div class="header_line">
+                <div class="head_logo">
+                    <img src="{% static 'mycat/image/logo.png' %}" alt="Логотип">
+                </div>
+                <div class="head_menu">
+                     <a class="ss" href="{% url 'home' %}">Главная</a>
+                     <a class="ss" href="{% url 'photo' %}">Фото</a>
+                     <a class="ss" href="{% url 'video' %}">Видео</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    {% endblock %}
+    {% block content %}
+    {% endblock %}
+    <div class="footer">
+        <div class="container">
+            <p>&copy; 2024 MyCat. Проект реализован в качестве pet-project</p>
+            <p><a class="autor" href="https://github.com/YoursesH">Ссылка на автора</a></p>
+        </div>
+    </div>
+</body>
+</html>

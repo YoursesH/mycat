@@ -1,0 +1,43 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block title %}Главная{% endblock %}
+
+{% block content %}
+<div class="container">
+    <div class="under_headline">
+        <div class="123">
+            <div class="img_under_head_logo">
+                <img src="{% static 'mycat/image/underhead_logo.png' %}" alt="Логотип под шапкой">
+            </div>
+            <div class="button_underhead">
+                <img src="{% static 'mycat/image/button_underhead.png' %}" alt="Кнопка под шапкой">
+            </div>
+        </div>
+        <div class="morda">
+            <img src="{% static 'mycat/image/morda.png' %}" alt="Морда">
+        </div>
+    </div>
+</div>
+<div class="about">
+    <img src="{% static 'mycat/image/about_us_image.png' %}" alt="Изображение о нас">
+    <div class="about_us">
+        <img src="{% static 'mycat/image/about_us.png' %}" alt="О нас">
+    </div>
+</div>
+<div class="history">
+    <img src="{% static 'mycat/image/history.png' %}" alt="История">
+</div>
+<div class="lastbox">
+    <div class="lastbox_image">
+        <img src="{% static 'mycat/image/video.png' %}" alt="Видео">
+        <img src="{% static 'mycat/image/photo.png' %}" alt="Фото">
+        <img src="{% static 'mycat/image/cat_care.png' %}" alt="Уход за кошками">
+    </div>
+    <div class="lastbox_inscription">
+        <img src="{% static 'mycat/image/video_inscription.png' %}" alt="Подпись к видео">
+        <img src="{% static 'mycat/image/photo_inscription.png' %}" alt="Подпись к фото">
+        <img src="{% static 'mycat/image/care_inscription.png' %}" alt="Подпись к уходу за кошками">
+    </div>
+</div>
+{% endblock %}

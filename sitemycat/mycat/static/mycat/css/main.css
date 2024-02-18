@@ -1,0 +1,144 @@
+body{
+  margin: 0;
+}
+
+.container{
+  margin: 0px 166px;
+}
+
+.header_line{
+  padding-top: 50px;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  background-color: #ffd34e;
+  justify-content: space-around;
+}
+
+.head_menu{
+  margin-bottom: 35px;
+}
+.ss{
+  color: black;
+  text-decoration: none;
+  font-family: 'Permanent Marker', cursive;
+  font-weight: 700;
+  font-size: 32px;
+
+  margin-right: 25px;
+  transition: color 0.3s linear;
+}
+
+.ss:hover{
+  color: #3CB371
+}
+
+.under_headline{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.morda{
+  background-color: #eba8e6;
+}
+
+.img_under_head_logo{
+  margin-left: 200px;
+  display: flex;
+  align-items: center;
+}
+.button_underhead{
+  margin-top: 100px;
+  margin-left: 350px;
+  display: flex;
+  align-items: center;
+}
+
+.about{
+  margin: 0px 166px;
+  padding-left: 160px;
+  display: flex;
+  background-color: #ffd34e;
+}
+.about_us{
+  margin-left: 130px;
+  display: flex;
+  justify-content: center; /* Выравнивание по горизонтали по центру */
+  align-items: center; /* Выравнивание по вертикали по центру */
+}
+
+.about_us img{
+  max-width: 100%;
+  max-height: 100%;
+}
+.history {
+    margin: 0px 166px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #eba8c6
+
+}
+
+.history img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.lastbox{
+  margin: 0px 166px;
+  background-color: #ffd34e;
+}
+
+.lastbox_image{
+  margin-left: 35px;
+  padding-top: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.lastbox_inscription{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+
+.footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.footer p {
+    margin: 0;
+}
+
+.autor {
+    color: #3CB371; /* Изменение цвета ссылки на зеленый */
+    text-decoration: none;
+}
+
+.autor:hover {
+    color: #FFA500
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between; /* Равномерно распределяет элементы по контейнеру */
+    margin: 0 166px;
+}
+
+.gallery-item {
+    flex: 0 0 calc(33.33% - 20px); /* Определите ширину каждого элемента галереи */
+    margin: 10px; /* Задайте отступ между элементами */
+}
+
+.gallery-item img {
+    width: 100%; /* Сделайте изображения внутри элементов галереи заполняющими */
+    height: auto;
+}
+
