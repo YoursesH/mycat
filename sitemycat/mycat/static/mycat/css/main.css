@@ -17,6 +17,7 @@ body{
 
 .head_menu{
   margin-bottom: 35px;
+  padding-left: 50px;
 }
 .ss{
   color: black;
@@ -124,21 +125,4 @@ body{
 
 .autor:hover {
     color: #FFA500
-
-.gallery {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between; /* Равномерно распределяет элементы по контейнеру */
-    margin: 0 166px;
-}
-
-.gallery-item {
-    flex: 0 0 calc(33.33% - 20px); /* Определите ширину каждого элемента галереи */
-    margin: 10px; /* Задайте отступ между элементами */
-}
-
-.gallery-item img {
-    width: 100%; /* Сделайте изображения внутри элементов галереи заполняющими */
-    height: auto;
-}
 
